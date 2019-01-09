@@ -19,32 +19,160 @@ import partnerImg9 from './img/partner-img-9.png';
 import phone from './img/phone-registration.png';
 import mail from './img/mail.png';
 
-class App extends Component {
-  render()
-  {
+// ____________________________________
+
+import logo from './img/logo_sr.png';
+
+// import bigFoto1 from './img/big_foto_1.png';
+import bigFoto2 from './img/big_foto_2.png';
+
+import ellipse from './img/ellipse.png';
+
+import foto1 from './img/foto_1.png';
+import foto2 from './img/foto_2.png';
+import foto3 from './img/foto_3.png';
+import foto4 from './img/foto_4.png';
+
+import icon1 from './img/icon_1.png';
+import icon2 from './img/icon_2.png';
+import icon3 from './img/icon_3.png';
+import icon4 from './img/icon_4.png';
+
+import par1 from './img/par_1.png';
+import par2 from './img/par_2.png';
+import par3 from './img/par_3.png';
+import par4 from './img/par_4.png';
+import par5 from './img/par_5.png';
+import par6 from './img/par_6.png';
+import par7 from './img/par_7.png';
+import par8 from './img/par_8.png';
+import par9 from './img/par_9.png';
+import par10 from './img/par_10.png';
+import par11 from './img/par_11.png';
+import par12 from './img/par_12.png';
+import par13 from './img/par_13.png';
+import par14 from './img/par_14.png';
+import par15 from './img/par_15.png';
+
+
+import fb from './img/fb.png';
+import inst from './img/inst.png';
+
+const App = () => {
     return (
       <div className="Wrapper">
         <div className="Container">
 
+          <header>
+            <img src={logo} alt="logo"/>
+            <div className="Top-menu">
+              <a href="">О нас</a>
+              <p>|</p>
+              <a href="">Проекты</a>
+              <p>|</p>
+              <a href="">Расписание</a>
+              <p>|</p>
+              <a href="">Контакты</a>
+            </div>
+          </header>
+
           <div className="Backgraung-header">
-            <h6>Киев | 17.12</h6>
-            <h1>Collaboration Forum 2017</h1>
-            <h2>II международная конференция объединения ведущих <br/> предпринимателей Украины</h2>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETarL7liZ6HuIl98ssT5lp-j9xELReoyFma1hmwNfrI7kJw/viewform?usp=sf_link">
-              <button className="Main-button" type="button" name="button">Регистрация</button>
-            </a>
+            <div className="Main-text">
+              <h1>Speak <span className="Bold">Room</span></h1>
+              <p className="Main-text-1">
+                Это сообщество переговорщиков
+              </p>
+              <p className="Main-text-2">
+                Мы собрали экспертов в сфере ведения переговоров, продаж и психологии, с которыми за 7 лет работы провели более 900 переговорных поединков, стратегических сессий и переговорных тренингов.
+              </p>
+            </div>
           </div>
 
           <div className="Where">
-            <h3>Где и когда?</h3>
-            <p className="Where-1">17 декабря</p>
-            <p className="Where-2">BEEF meat & wine</p>
-            <p className="Where-3">Киев, Шота Руставели, 11</p>
-            <div className="Where-container">
-              <img src={whereImg1} alt="foto1"/>
-              <img src={whereImg2} alt="foto2"/>
-              <img src={whereImg3} alt="foto3"/>
-              <img src={whereImg4} alt="foto4"/>
+            <div className="Where-block-1">
+              <h2>Программы SpeakRoom</h2>
+              <p className="Where-main-text-1">
+                Мы разработали программы, которые помогают:
+              </p>
+              <p className="Where-text-1">
+                <span>
+                  <img src={ellipse} alt="ellipse"/>
+                </span>
+                Решать конфликтные ситуации и эффективно вести трудные диалоги.
+              </p>
+              <p className="Where-text-1">
+                <span>
+                  <img src={ellipse} alt="ellipse"/>
+                </span>
+                Добиваться своих целей в переговорах, при этом сохраняя власть и отношения.
+              </p>
+              <p className="Where-text-1">
+                <span>
+                  <img src={ellipse} alt="ellipse"/>
+                </span>
+                Вести жесткие переговоры и противостоять манипуляции.
+              </p>
+              <div className="Where-btn-box">
+              <a href="">
+                <button className="Where-btn-1" type="button" name="button">Проекты</button>
+              </a>
+              <a href="">
+                <button className="Where-btn-2" type="button" name="button">Расписание</button>
+              </a>
+              </div>
+            </div>
+            <div className="Where-block-2">
+              <div className="Where-card">
+                <div className="Where-foto Where-foto-1">
+                  <div className="Where-foto-date">
+                    Старт 10 февраля
+                  </div>
+                </div>
+                <p className="Where-card-main-text">
+                  Курс по переговорам
+                </p>
+                <p className="Where-card-text">
+                  Чтобы добиваться поставленных целей в жизни, нужно быть мастером переговоров.
+                </p>
+              </div>
+              <div className="Where-card">
+                <div className="Where-foto Where-foto-2">
+                  <div className="Where-foto-date">
+                    Каждое воскресенье
+                  </div>
+                </div>
+                <p className="Where-card-main-text">
+                  Переговорные Поединки
+                </p>
+                <p className="Where-card-text">
+                  Ежедневно мы ведем переговоры в коллективе, с клиентами, сыном-подростком, начальником или с подчиненным.
+                  Если власть и контроль над переговорами на вашей стороне — вы получите желаемое.
+                </p>
+              </div>
+              <div className="Where-card">
+                <div className="Where-foto Where-foto-3">
+                </div>
+                <p className="Where-card-main-text">
+                  Корпоративное обучение
+                </p>
+                <p className="Where-card-text">
+                  Разработка уникальных программ и технологий для вашей компании
+                </p>
+              </div>
+              <div className="Where-card">
+                <div className="Where-foto Where-foto-4">
+                  <div className="Where-foto-date">
+                    3 марта
+                  </div>
+                </div>
+                <p className="Where-card-main-text">
+                  Talks Forum
+                </p>
+                <p className="Where-card-text">
+                  Бизнес-конференция с уникальным набором спикеров из разных сфер и стран.
+                  идеры в сфере переговоров, коммуникации и управленческого искусства делятся своим опытом, факапами и честно отвечают на ваши вопросы.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -327,6 +455,5 @@ class App extends Component {
       </div>
     );
   }
-}
 
 export default App;
