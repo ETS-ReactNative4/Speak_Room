@@ -174,7 +174,7 @@ header{
 }
 
 .Where-block-1, .Where-block-2{
-  width: 580px;
+  width: 600px;;
   height: 860px;
   /* border: 1px solid black; */
 }
@@ -251,7 +251,7 @@ header{
 
 .Where-card{
   height: 400px;
-  width: 250px;
+  width: 255px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -305,6 +305,7 @@ header{
   line-height: 24px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .Where-card-text{
@@ -315,6 +316,138 @@ header{
   line-height: 16px;
   text-align: center;
 }
+
+.Backgraung-nambers{
+  width: 100%;
+  height: 620px;
+  background-image: url(img/big_foto_2.png);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.Nambers-cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Nambers-card{
+  width: 200px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 100px;
+}
+
+.Nambers-card-main-text{
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 55.71px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.Nambers-card-text{
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.Mission{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+}
+
+.Mission-text-1{
+  color: #161616;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.Mission-text-2{
+  color: #161616;
+  font-family: "Open Sans";
+  font-size: 26px;
+  font-style: italic;
+  line-height: 28px;
+}
+
+.Сustomers{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+.Сustomers-block-1{
+  min-width: 660px;
+  width: 660px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #385d8d;
+  padding-right: 30px;
+}
+
+.Сustomers-main-text{
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 45px;
+  text-align: right;
+}
+
+.Сustomers-text{
+  width: 450px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+}
+
+.Сustomers-block-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px 20px 20px;
+}
+
+.Сustomers-block-2 img{
+  margin: 8px;
+}
+
+
+
+
+
 
 /*
 .Where h3{

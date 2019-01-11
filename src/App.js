@@ -24,7 +24,7 @@ import mail from './img/mail.png';
 import logo from './img/logo_sr.png';
 
 // import bigFoto1 from './img/big_foto_1.png';
-import bigFoto2 from './img/big_foto_2.png';
+// import bigFoto2 from './img/big_foto_2.png';
 
 import ellipse from './img/ellipse.png';
 
@@ -53,6 +53,8 @@ import par12 from './img/par_12.png';
 import par13 from './img/par_13.png';
 import par14 from './img/par_14.png';
 import par15 from './img/par_15.png';
+import par16 from './img/par_16.png';
+import par17 from './img/par_17.png';
 
 
 import fb from './img/fb.png';
@@ -176,37 +178,82 @@ const App = () => {
             </div>
           </div>
 
-          <div className="Whom">
-            <h3>Для кого?</h3>
-            <div className="Whom-container">
-              <div className="Whom-box">
-                <div className="Whom-img">
+          <div className="Backgraung-nambers">
+              <h3>В цифрах</h3>
+              <div className="Nambers-cards">
+                <div className="Nambers-card">
+                  <img src={icon1} alt="icon1"/>
+                  <p className="Nambers-card-main-text">
+                    900+
+                  </p>
+                  <p className="Nambers-card-text">
+                    переговорных поединков
+                  </p>
                 </div>
-                <p>Для начинающих и опытных управленцев</p>
-              </div>
-              <div className="Whom-box">
-                <div className="Whom-img">
+                <div className="Nambers-card">
+                  <img src={icon2} alt="icon2"/>
+                  <p className="Nambers-card-main-text">
+                    500+
+                  </p>
+                  <p className="Nambers-card-text">
+                    проведенных тренингов, лекций и мастер-классов для самых разных аудиторий
+                  </p>
                 </div>
-                <p>HR-директоров</p>
-              </div>
-              <div className="Whom-box">
-                <div className="Whom-img">
+                <div className="Nambers-card">
+                  <img src={icon3} alt="icon3"/>
+                  <p className="Nambers-card-main-text">
+                    1500+
+                  </p>
+                  <p className="Nambers-card-text">
+                    выпускников наших программ
+                  </p>
                 </div>
-                <p>Директоров по развитию бизнеса</p>
-              </div>
-              <div className="Whom-box">
-                <div className="Whom-img">
+                <div className="Nambers-card">
+                  <img src={icon4} alt="icon4"/>
+                  <p className="Nambers-card-main-text">
+                    640+
+                  </p>
+                  <p className="Nambers-card-text">
+                    часов корпоративного обучения
+                  </p>
                 </div>
-                <p>Владельцев и руководителей бизнеса</p>
               </div>
-            </div>
           </div>
 
-          <div className="Why">
-            <h3>Зачем?</h3>
-            <p className="Why-1">Для совместного достижения общих и личных <br/> целей, обмена знаниями, обучения и развития</p>
-            <p className="Why-2">"Талант выигрывает игры, а командная работа - чемпионаты."</p>
-            <p className="Why-3">Майкл Джордан</p>
+          <div className="Mission">
+            <p className="Mission-text-1">Наша миссия</p>
+            <p className="Mission-text-2">Обучаем людей качественно коммуницировать</p>
+          </div>
+
+          <div className="Сustomers">
+            <div className="Сustomers-block-1">
+              <p className="Сustomers-main-text">
+                Наши клиенты
+              </p>
+              <p className="Сustomers-text">
+                Мы проводим тренинги и мастер-классы как в открытом, так и в корпоративном формате.
+                Наши клиенты — успешные украинские и международные компании, которые понимают, что от качества коммуникации зависит все.
+              </p>
+            </div>
+            <div className="Сustomers-block-2">
+              <img src={par1} alt="par1"/>
+              <img src={par2} alt="par1"/>
+              <img src={par3} alt="par1"/>
+              <img src={par4} alt="par1"/>
+              <img src={par5} alt="par1"/>
+              <img src={par6} alt="par1"/>
+              <img src={par7} alt="par1"/>
+              <img src={par8} alt="par1"/>
+              <img src={par9} alt="par1"/>
+              <img src={par10} alt="par1"/>
+              <img src={par11} alt="par1"/>
+              <img src={par12} alt="par1"/>
+              <img src={par13} alt="par1"/>
+              <img src={par14} alt="par1"/>
+              <img src={par15} alt="par1"/>
+              <img src={par16} alt="par1"/>
+              <img src={par17} alt="par1"/>
+            </div>
           </div>
 
           <div className="Sphere">
