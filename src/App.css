@@ -116,7 +116,7 @@ header{
   justify-content: space-around;
 }
 
-.Top-menu a {
+.Top-menu Link {
   text-transform: uppercase;
 }
 
@@ -478,6 +478,91 @@ footer p{
   font-weight: 400;
   line-height: 20px;
 }
+
+.Main-сontacts{
+  height: 425px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main-сontacts-block{
+  width: 480px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.Backgraung-сontacts-1{
+  min-width: 550px;
+  width: 600px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #385d8d;
+  padding-right: 30px;
+}
+
+.Backgraung-сontacts-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Backgraung-сontacts-text{
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: right;
+}
+
+.Main-сontacts-card{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Main-сontacts-card img{
+  height: 110px;
+}
+
+
+.Main-сontacts-main-text{
+  color: #161616;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+.Main-сontacts-text{
+  color: #161616;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* ____________________Media___________________________________ */
+
+
+
+
+
+
 
 @media screen and (max-width: 1080px) {
 

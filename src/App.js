@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-
-import logo from './img/logo_sr.png';
+import Header from './header';
+import Footer from './footer';
 
 import ellipse from './img/ellipse.png';
 
@@ -28,26 +28,12 @@ import par15 from './img/par_15.png';
 import par16 from './img/par_16.png';
 import par17 from './img/par_17.png';
 
-import fb from './img/fb.png';
-import inst from './img/inst.png';
-
 const Main = () => {
     return (
       <div className="Wrapper">
         <div className="Container">
 
-          <header>
-            <img src={logo} alt="logo"/>
-            <div className="Top-menu">
-              <a href="">О нас</a>
-              <p>|</p>
-              <a href="">Проекты</a>
-              <p>|</p>
-              <a href="">Расписание</a>
-              <p>|</p>
-              <a href="">Контакты</a>
-            </div>
-          </header>
+          <Header />
 
           <div className="Backgraung-header">
             <div className="Main-text">
@@ -240,15 +226,8 @@ const Main = () => {
               </a>
             </div>
 
-            <footer>
-              <div className="Footer-box">
-                <p>© 2018 - 2019 Speak room. Все права защищены</p>
-                <div className="Footer-social-box">
-                  <a href="https://www.facebook.com/speakroomua/"><img src={fb} alt="fb"/></a>
-                  <a href="https://instagram.com/speakroom"><img src={inst} alt="inst"/></a>
-                </div>
-              </div>
-            </footer>
+            <Footer />
+
         </div>
       </div>
     );
