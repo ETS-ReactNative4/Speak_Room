@@ -1,16 +1,65 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import { Link } from "react-router-dom";
 import logo from './img/logo_sr.png';
 
 const Header = () => {
 
-let supmMenu = 0;
-function ChangeSubMenu() {
-  if (supmMenu === 1){
-    supmMenu = 0;
-  }else {
-    supmMenu = 1;
+class SubMenu extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      showMenu: false,
+    };
+
+    this.showMenu = this.showMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
+  }
+
+  showMenu(event) {
+    event.preventDefault();
+
+    this.setState({ showMenu: true }, () => {
+      document.addEventListener('click', this.closeMenu);
+    });
+  }
+
+  closeMenu() {
+
+    this.setState({ showMenu: false }, () => {
+      document.removeEventListener('click', this.closeMenu);
+    });
+
+  }
+
+  render() {
+    return (
+      <div>
+        <a onClick={this.showMenu}>
+          О нас
+        </a>
+
+        {
+          this.state.showMenu
+            ? (
+              <div
+                className="menu"
+                ref={(element) => {
+                  this.dropdownMenu = element;
+                }}
+              >
+              <div className="Top-submenu">
+                 <Link to="/team1/">Катерина Мартыненко</Link>
+                 <Link to="/team/">Владимир Рогов</Link> </div>
+              </div>
+            )
+            : (
+              null
+            )
+        }
+      </div>
+    );
   }
 }
 
@@ -21,18 +70,7 @@ function ChangeSubMenu() {
         <img src={logo} alt="logo"/>
       </Link>
       <div className="Top-menu">
-        <div className="Top-submenu-box">
-          <p onClick={ChangeSubMenu}>
-            О нас
-          </p>
-          {supmMenu ? <div className="Top-submenu"> <Link to="/about/">Катерина Мартыненко</Link> <Link to="/about/">Владимир Рогов</Link> </div>  : <div></div>}
-        </div>
-        <p>|</p>
-        <Link to="/team/">Владимер</Link>
-        <p>|</p>
-        <a href="">Проекты</a>
-        <p>|</p>
-        <a href="">Расписание</a>
+        <SubMenu />
         <p>|</p>
         <Link to="/contacts/">Контакты</Link>
       </div>
@@ -41,3 +79,8 @@ function ChangeSubMenu() {
 }
 
 export default Header;
+
+// <p>|</p>
+// <a href="">Проекты</a>
+// <p>|</p>
+// <a href="">Расписание</a>

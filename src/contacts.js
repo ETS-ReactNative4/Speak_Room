@@ -19,18 +19,18 @@ const Contacts = () => (
             <p className="Main-сontacts-main-text">
               Телефон
             </p>
-            <p className="Main-сontacts-text">
+            <a className="Main-сontacts-text" href="tel: +380662604145">
               +38 (066) 260 41 45
-            </p>
+            </a>
           </div>
           <div className="Main-сontacts-card">
             <img src={mail} alt="mail"/>
             <p className="Main-сontacts-main-text">
               Email
             </p>
-            <p className="Main-сontacts-text">
+            <a className="Main-сontacts-text" href="mailto: speakroom.ua@gmail.com">
               speakroom.ua@gmail.com
-            </p>
+            </a>
           </div>
         </div>
       </div>

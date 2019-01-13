@@ -213,19 +213,6 @@ const Main = () => {
             </div>
           </div>
 
-
-            <div className="Registration">
-              <h3>Регистрация</h3>
-              <p className="Registration-1">Стоимость участия: 1200 грн (включая обед)</p>
-              <p className="Registration-2">Для ваших детей работает детская комната и аниматор :)</p>
-              <a href="tel:+380934295216"><img src="" alt="phone"/></a>
-              <p className="Registration-3"><a href="tel:+380934295216">+38 (093) 429 52 16</a></p>
-              <p className="Registration-3"><a href="https://www.facebook.com/martynenko.katya">FB:  Ekaterina Martynenko</a></p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETarL7liZ6HuIl98ssT5lp-j9xELReoyFma1hmwNfrI7kJw/viewform?usp=sf_link">
-                <button className="Main-button" type="button" name="button">Регистрация</button>
-              </a>
-            </div>
-
             <Footer />
 
         </div>
@@ -234,3 +221,16 @@ const Main = () => {
   }
 
 export default Main;
+
+
+// <div className="Registration">
+//   <h3>Регистрация</h3>
+//   <p className="Registration-1">Стоимость участия: 1200 грн (включая обед)</p>
+//   <p className="Registration-2">Для ваших детей работает детская комната и аниматор :)</p>
+//   <a href="tel:+380934295216"><img src="" alt="phone"/></a>
+//   <p className="Registration-3"><a href="tel:+380934295216">+38 (093) 429 52 16</a></p>
+//   <p className="Registration-3"><a href="https://www.facebook.com/martynenko.katya">FB:  Ekaterina Martynenko</a></p>
+//   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETarL7liZ6HuIl98ssT5lp-j9xELReoyFma1hmwNfrI7kJw/viewform?usp=sf_link">
+//     <button className="Main-button" type="button" name="button">Регистрация</button>
+//   </a>
+// </div>

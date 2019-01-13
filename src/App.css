@@ -138,6 +138,7 @@ header{
   align-items: center;
   position: fixed;
   top: 95px;
+  opacity: 1 !important;
 }
 
 .Top-submenu Link{
@@ -701,6 +702,17 @@ footer p{
   margin: 7px;
 }
 
+.Kater-header{
+  width: 100%;
+  height: 768px;
+  background-image: url(img/kater-1.png);
+  display: flex;
+}
+
+.Kater-main-text{
+  line-height: 72px;
+  margin-left: 230px;
+}
 
 /* ____________________Media___________________________________ */
 

@@ -5,29 +5,26 @@ import Footer from './footer';
 
 import ellipse from './img/ellipse.png';
 
-import rogov2 from './img/rogov-2.png';
-import rogov3 from './img/rogov-3.png';
-import rogov4 from './img/rogov-4.png';
-import rogov5 from './img/rogov-5.png';
-import rogov6 from './img/rogov-6.png';
-import rogov7 from './img/rogov-7.png';
-import rogov8 from './img/rogov-8.png';
-import rogov9 from './img/rogov-9.png';
+import kater2 from './img/kater-2.png';
+import kater3 from './img/kater-3.png';
+import kater4 from './img/kater-4.png';
+import kater5 from './img/kater-5.png';
+import kater6 from './img/kater-6.png';
+import kater7 from './img/kater-7.png';
+import kater8 from './img/kater-8.png';
+import kater9 from './img/kater-9.png';
 
 
-const Vladimir = () => (
+const Katerina = () => (
   <div className="Wrapper">
     <div className="Container">
 
     <Header />
 
-    <div className="Rogov-header">
+    <div className="Kater-header">
       <div className="Main-text">
-        <p className="Rogov-main-text">
-          Владимир Рогов
-        </p>
-        <p className="Rogov-text-1">
-          Тренер по переговорам и управленческому искусству с 28-летним опытом в бизнесе
+        <p className="Rogov-main-text Kater-main-text">
+          Мартыненко Катерина
         </p>
       </div>
     </div>
@@ -35,14 +32,15 @@ const Vladimir = () => (
       <div className="Rogov-block">
         <div className="Rogov-block-1">
           <p className="Rogov-block-text">
-            Владимир Рогов — сооснователь и ведущий тренер проекта SpeakRoom. На его счету более 500 проведенных тренингов, курсов и мастер-классов для самых разных аудиторий — от 10 до 9000 человек.
+          Мартыненко Катерина - основатель, идейный вдохновитель и куратор проекта SpeakRoom.
+          Входит в ТОП 100 влиятельных женщин Украины 2018
           </p>
         </div>
-        <img className="Rogov-block-2" src={rogov2} alt="par1"/>
+        <img className="Rogov-block-2" src={kater2} alt="par1"/>
       </div>
 
       <div className="Rogov-block">
-        <img className="Rogov-block-2" src={rogov3} alt="par1"/>
+        <img className="Rogov-block-2" src={kater3} alt="par1"/>
         <div className="Rogov-block-1">
           <p className="Rogov-block-main-text">
             Образование
@@ -51,28 +49,31 @@ const Vladimir = () => (
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            МВТУ им. Баумана Москва
+            Киевский университет туризма, экономики и права по специальности “Международные отношения”
           </p>
           <p className="Rogov-block-text">
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            Всероссийская Академия Внешней Торговли. МОСКВА
+            Hult International Business School “Bachelor of Business Administration”
           </p>
           <p className="Rogov-block-text">
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            MBA в MIM-Kyiv Business School
+            Hult International Business School “Masters in International Business”
           </p>
           <p className="Rogov-block-text">
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            Таллиннская Школа Менеджеров
+            Christian Life School of Theology “Leadership”
           </p>
         </div>
       </div>
+
+
+
 
 
       <div className="Rogov-block">
@@ -84,28 +85,28 @@ const Vladimir = () => (
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            Консультант Adizes Institute
+            Ресторанный консалтинг
           </p>
           <p className="Rogov-block-text">
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            Бизнесмен
+            Бег
           </p>
           <p className="Rogov-block-text">
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            Счастливый отец
+            Организация ивентов любой сложности
           </p>
           <p className="Rogov-block-text">
             <span>
               <img src={ellipse} alt="ellipse"/>
             </span>
-            Спортсмен
+            Благотворительность
           </p>
         </div>
-        <img className="Rogov-block-2" src={rogov4} alt="par1"/>
+        <img className="Rogov-block-2" src={kater4} alt="par1"/>
       </div>
 
       <div className="Rogov-block-white">
@@ -115,15 +116,14 @@ const Vladimir = () => (
       </div>
 
       <div className="Rogov-gallery">
-
-        <img className="Rogov-gallery-img" src={rogov5} alt="par1"/>
+        <img className="Rogov-gallery-img" src={kater5} alt="par1"/>
         <div className="Rogov-gallery-part">
-          <img className="Rogov-gallery-img" src={rogov6} alt="par1"/>
-          <img className="Rogov-gallery-img" src={rogov7} alt="par1"/>
+          <img className="Rogov-gallery-img" src={kater6} alt="par1"/>
+          <img className="Rogov-gallery-img" src={kater7} alt="par1"/>
         </div>
         <div className="Rogov-gallery-part">
-          <img className="Rogov-gallery-img" src={rogov8} alt="par1"/>
-          <img className="Rogov-gallery-img" src={rogov9} alt="par1"/>
+          <img className="Rogov-gallery-img" src={kater8} alt="par1"/>
+          <img className="Rogov-gallery-img" src={kater9} alt="par1"/>
         </div>
       </div>
 
@@ -137,4 +137,4 @@ const Vladimir = () => (
   </div>
 );
 
-export default Vladimir;
+export default Katerina;
