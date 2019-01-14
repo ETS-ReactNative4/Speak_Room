@@ -36,11 +36,15 @@ const Katerina = () => (
           Входит в ТОП 100 влиятельных женщин Украины 2018
           </p>
         </div>
-        <img className="Rogov-block-2" src={kater2} alt="par1"/>
+        <div className="Rogov-block-2">
+          <img src={kater2} alt="par1"/>
+        </div>
       </div>
 
       <div className="Rogov-block">
-        <img className="Rogov-block-2" src={kater3} alt="par1"/>
+        <div className="Rogov-block-2">
+          <img src={kater3} alt="par1"/>
+        </div>
         <div className="Rogov-block-1">
           <p className="Rogov-block-main-text">
             Образование
@@ -106,7 +110,9 @@ const Katerina = () => (
             Благотворительность
           </p>
         </div>
-        <img className="Rogov-block-2" src={kater4} alt="par1"/>
+        <div className="Rogov-block-2">
+          <img  src={kater4} alt="par1"/>
+        </div>
       </div>
 
       <div className="Rogov-block-white">

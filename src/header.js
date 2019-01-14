@@ -45,13 +45,14 @@ class SubMenu extends Component {
             ? (
               <div
                 className="menu"
-                ref={(element) => {
-                  this.dropdownMenu = element;
-                }}
-              >
-              <div className="Top-submenu">
-                 <Link to="/team1/">Катерина Мартыненко</Link>
-                 <Link to="/team/">Владимир Рогов</Link> </div>
+                  ref={(element) => {
+                    this.dropdownMenu = element;
+                  }}
+                >
+                <div className="Top-submenu">
+                  <Link to="/team/">Владимир Рогов</Link>
+                  <Link to="/team1/">Катерина Мартыненко</Link>
+                </div>
               </div>
             )
             : (

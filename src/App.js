@@ -202,7 +202,6 @@ const Main = () => {
               <img src={par7} alt="par1"/>
               <img src={par8} alt="par1"/>
               <img src={par9} alt="par1"/>
-              <img src={par10} alt="par1"/>
               <img src={par11} alt="par1"/>
               <img src={par12} alt="par1"/>
               <img src={par13} alt="par1"/>

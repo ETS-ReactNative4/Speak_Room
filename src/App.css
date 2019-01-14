@@ -22,6 +22,7 @@ h1{
   font-size: 62px;
   font-weight: 400;
   margin-left: -40px;
+  font-family: Montserrat;
 }
 
 h2{
@@ -84,11 +85,13 @@ a{
   display: flex;
   /* flex-direction: column;
   align-items: center; */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .Container{
   height: 100%;
-  max-width: 1640px;
+  /*max-width: 1640px;*/
   background-color: #ffffff;
   margin: auto;
   overflow: hidden;
@@ -99,7 +102,7 @@ header{
   height: 96px;
   box-shadow: 0 6px 8px rgba(0, 5, 13, 0.15);
   background-color: #3b3b3d;
-  opacity: 0.55;
+  /*opacity: 0.55;*/
   position: fixed;
   top: 0;
   display: flex;
@@ -156,7 +159,7 @@ header{
 .Main-text{
   width: 450px;
   margin-top: 230px;
-  margin-left: 900px;
+  margin-left: 1150px;
 }
 
 .Main-text-1{
@@ -355,6 +358,8 @@ header{
   /* justify-content: space-around; */
   align-items: center;
   /* flex-wrap: wrap; */
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
 }
 
 .Nambers-cards{
@@ -425,7 +430,7 @@ header{
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  justify-content: center;
 }
 
 .Сustomers-block-1{
@@ -470,7 +475,7 @@ header{
 }
 
 .Сustomers-block-2 img{
-  margin: 8px;
+  margin: 22px;
 }
 
 footer {
@@ -590,6 +595,8 @@ footer p{
   height: 768px;
   background-image: url(img/rogov-1.png);
   display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .Rogov-main-text{
@@ -610,12 +617,14 @@ footer p{
 }
 
 .Rogov-block{
+  max-width: 1620px;
   width: 100%;
   height: 568px;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .Rogov-block-1{
@@ -630,6 +639,7 @@ footer p{
 
 .Rogov-block-2{
   width: 50%;
+  overflow: hidden;
 }
 
 
@@ -686,7 +696,7 @@ footer p{
 .Rogov-gallery{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
 }
@@ -707,6 +717,8 @@ footer p{
   height: 768px;
   background-image: url(img/kater-1.png);
   display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .Kater-main-text{
@@ -863,7 +875,7 @@ footer p{
     height: auto;
   }
 
- .Timetable-container, {
+ .Timetable-container{
     width: 90%;
     padding-left: 14%;
   }

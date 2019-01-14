@@ -15,7 +15,9 @@ const Contacts = () => (
       <div className="Main-сontacts">
         <div className="Main-сontacts-block">
           <div className="Main-сontacts-card">
-            <img src={phone} alt="mail"/>
+            <a className="Main-сontacts-text" href="tel: +380662604145">
+              <img src={phone} alt="phone"/>
+            </a>
             <p className="Main-сontacts-main-text">
               Телефон
             </p>
@@ -24,7 +26,9 @@ const Contacts = () => (
             </a>
           </div>
           <div className="Main-сontacts-card">
-            <img src={mail} alt="mail"/>
+            <a className="Main-сontacts-text" href="mailto: speakroom.ua@gmail.com">
+              <img src={mail} alt="mail"/>
+            </a>
             <p className="Main-сontacts-main-text">
               Email
             </p>
