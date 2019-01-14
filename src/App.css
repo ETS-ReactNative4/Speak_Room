@@ -38,10 +38,11 @@ h2{
 h3{
   color: #ffffff;
   font-size: 52px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 37.78px;
   text-align: center;
   margin-top: 64px;
+  font-family: Montserrat;
 }
 
 
@@ -109,6 +110,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  z-index: 10;
 }
 
 .Top-menu{
@@ -159,7 +161,7 @@ header{
 .Main-text{
   width: 450px;
   margin-top: 230px;
-  margin-left: 1150px;
+  margin-left: 60%;
 }
 
 .Main-text-1{
@@ -436,7 +438,6 @@ header{
 .Сustomers-block-1{
   min-width: 660px;
   width: 660px;
-  height: 420px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -572,7 +573,6 @@ footer p{
   height: 110px;
 }
 
-
 .Main-сontacts-main-text{
   color: #161616;
   font-family: "Open Sans";
@@ -649,7 +649,7 @@ footer p{
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 200px;
+  margin-left: 180px;
   margin-right: 150px;
 }
 
@@ -661,7 +661,7 @@ footer p{
   line-height: 24px;
   text-transform: uppercase;
   margin-bottom: 55px;
-  margin-left: 200px;
+  margin-left: 180px;
 }
 
 .Rogov-box-text{
@@ -709,7 +709,7 @@ footer p{
 }
 
 .Rogov-gallery-img{
-  margin: 7px;
+  margin: 6px;
 }
 
 .Kater-header{
@@ -734,9 +734,78 @@ footer p{
 
 
 
-@media screen and (max-width: 1080px) {
+ @media screen and (max-width: 1500px) {
+   .Main-text {
+     margin-left: 50%;
+   }
 
-  .Collaboration {
+  .Where-block-1, .Where-block-2 {
+    width: auto;
+    height: auto;
+    margin: 0 auto 60px auto;
+  }
+
+  .Where-block-2 {
+    width: 600px;
+  }
+
+  .Сustomers-text {
+      width: auto;
+      padding-left: 40px;
+    }
+  }
+
+@media screen and (max-width: 1100px) {
+
+  .Where {
+   flex-direction: column;
+   height: auto;
+  }
+  .Rogov-block {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .Rogov-block-2 {
+    width: auto;
+  }
+
+  .Rogov-block-1 {
+    width: auto;
+    height: auto;
+    margin: 60px;
+  }
+
+  .Rogov-gallery {
+    flex-direction: column;
+  }
+
+  .Сustomers {
+    flex-direction: column;
+  }
+
+  .Backgraung-сontacts-1 {
+    min-width: 550px;
+    width: 100%;
+  }
+
+  .Backgraung-сontacts-1 {
+    align-items: center;
+  }
+
+  .Сustomers-block-1 {
+      min-width: auto;
+      width: auto;
+      height: 250px;
+ }
+}
+
+ /* @media screen and (max-width: 1500px) {
+   .Main-text {
+     margin-left: 50%;
+   } */
+
+/*  .Collaboration {
     height: auto;
   }
 
@@ -887,4 +956,4 @@ footer p{
   .Footer-box {
     width: 324px;
   }
-}
+} */
