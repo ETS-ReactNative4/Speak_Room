@@ -112,9 +112,10 @@ class SubMenuMob extends Component {
                     this.dropdownMenu = element;
                   }}
                 >
-                <div className="Top-submenu">
+                <div className="Top-menu-mob">
                   <Link to="/team/">Владимир Рогов</Link>
                   <Link to="/team1/">Катерина Мартыненко</Link>
+                  <Link to="/contacts/">Контакты</Link>
                 </div>
               </div>
             )

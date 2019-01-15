@@ -14,6 +14,10 @@ import rogov7 from './img/rogov-7.png';
 import rogov8 from './img/rogov-8.png';
 import rogov9 from './img/rogov-9.png';
 
+import rogovMob2 from './img/rogov-mob-2.png';
+import rogovMob3 from './img/rogov-mob-3.png';
+import rogovMob4 from './img/rogov-mob-4.png';
+
 
 const Vladimir = () => (
   <div className="Wrapper">
@@ -31,6 +35,9 @@ const Vladimir = () => (
         </p>
       </div>
     </div>
+    <div className="mob RogovForText">
+    </div>
+
 
       <div className="Rogov-block">
         <div className="Rogov-block-1">
@@ -39,15 +46,17 @@ const Vladimir = () => (
           </p>
         </div>
         <div className="Rogov-block-2">
-          <img src={rogov2} alt="par1"/>
+          <img className="pc" src={rogov2} alt="par1"/>
+          <img className="mob" src={rogovMob2} alt="par1"/>
         </div>
       </div>
 
-      <div className="Rogov-block">
+      <div className="Rogov-block Rogov-block-mob">
         <div className="Rogov-block-2">
-          <img src={rogov3} alt="par1"/>
+          <img className="pc" src={rogov3} alt="par1"/>
+          <img className="mob" src={rogovMob3} alt="par1"/>
         </div>
-        <div className="Rogov-block-1">
+        <div className="Rogov-block-1 Rogov-block-mob-1">
           <p className="Rogov-block-main-text">
             Образование
           </p>
@@ -110,11 +119,12 @@ const Vladimir = () => (
           </p>
         </div>
         <div className="Rogov-block-2">
-          <img src={rogov4} alt="par1"/>
+        <img className="pc" src={rogov4} alt="par1"/>
+        <img className="mob" src={rogovMob4} alt="par1"/>
         </div>
       </div>
 
-      <div className="Rogov-block-white">
+      <div className="Rogov-block-white pc">
         <p className="Rogov-block-white-text">
         Галерея
         </p>

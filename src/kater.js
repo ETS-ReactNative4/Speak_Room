@@ -14,6 +14,9 @@ import kater7 from './img/kater-7.png';
 import kater8 from './img/kater-8.png';
 import kater9 from './img/kater-9.png';
 
+import katerMob2 from './img/kater-mob-2.png';
+import katerMob3 from './img/kater-mob-3.png';
+import katerMob4 from './img/kater-mob-4.png';
 
 const Katerina = () => (
   <div className="Wrapper">
@@ -28,6 +31,8 @@ const Katerina = () => (
         </p>
       </div>
     </div>
+    <div className="mob RogovForText">
+    </div>
 
       <div className="Rogov-block">
         <div className="Rogov-block-1">
@@ -37,15 +42,17 @@ const Katerina = () => (
           </p>
         </div>
         <div className="Rogov-block-2">
-          <img src={kater2} alt="par1"/>
+          <img className="pc" src={kater2} alt="par1"/>
+          <img className="mob" src={katerMob2} alt="par1"/>
         </div>
       </div>
 
-      <div className="Rogov-block">
-        <div className="Rogov-block-2">
-          <img src={kater3} alt="par1"/>
+      <div className="Rogov-block Rogov-block-mob">
+        <div className="Rogov-block-2 Rogov-block-mob-1">
+          <img className="pc" src={kater3} alt="par1"/>
+          <img className="mob" src={katerMob3} alt="par1"/>
         </div>
-        <div className="Rogov-block-1">
+        <div className="Rogov-block-1 Kater-block-mob-1">
           <p className="Rogov-block-main-text">
             Образование
           </p>
@@ -75,10 +82,6 @@ const Katerina = () => (
           </p>
         </div>
       </div>
-
-
-
-
 
       <div className="Rogov-block">
         <div className="Rogov-block-1">
@@ -111,11 +114,12 @@ const Katerina = () => (
           </p>
         </div>
         <div className="Rogov-block-2">
-          <img  src={kater4} alt="par1"/>
+        <img className="pc" src={kater4} alt="par1"/>
+        <img className="mob" src={katerMob4} alt="par1"/>
         </div>
       </div>
 
-      <div className="Rogov-block-white">
+      <div className="Rogov-block-white pc">
         <p className="Rogov-block-white-text">
         Галерея
         </p>
