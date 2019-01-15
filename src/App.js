@@ -47,6 +47,10 @@ const Main = () => {
             </div>
           </div>
 
+          <div className="mob forText">
+          </div>
+
+
           <div className="Where">
             <div className="Where-block-1">
               <h2>Программы SpeakRoom</h2>
@@ -71,14 +75,6 @@ const Main = () => {
                 </span>
                 Вести жесткие переговоры и противостоять манипуляции.
               </p>
-              <div className="Where-btn-box">
-              <a href="">
-                <button className="Where-btn-1" type="button" name="button">Проекты</button>
-              </a>
-              <a href="">
-                <button className="Where-btn-2" type="button" name="button">Расписание</button>
-              </a>
-              </div>
             </div>
             <div className="Where-block-2">
               <div className="Where-card">
@@ -138,8 +134,10 @@ const Main = () => {
           <div className="Backgraung-nambers">
               <h3>В цифрах</h3>
               <div className="Nambers-cards">
-                <div className="Nambers-card">
-                  <img src={icon1} alt="icon1"/>
+                <div className="Namber-card">
+                  <div className="For-icon">
+                    <img src={icon1} alt="icon1"/>
+                  </div>
                   <p className="Nambers-card-main-text">
                     900+
                   </p>
@@ -147,8 +145,10 @@ const Main = () => {
                     переговорных поединков
                   </p>
                 </div>
-                <div className="Nambers-card">
-                  <img src={icon2} alt="icon2"/>
+                <div className="Namber-card">
+                  <div className="For-icon">
+                    <img src={icon2} alt="icon2"/>
+                  </div>
                   <p className="Nambers-card-main-text">
                     500+
                   </p>
@@ -156,8 +156,10 @@ const Main = () => {
                     проведенных тренингов, лекций и мастер-классов для самых разных аудиторий
                   </p>
                 </div>
-                <div className="Nambers-card">
-                  <img src={icon3} alt="icon3"/>
+                <div className="Namber-card">
+                  <div className="For-icon">
+                    <img src={icon3} alt="icon3"/>
+                  </div>
                   <p className="Nambers-card-main-text">
                     1500+
                   </p>
@@ -165,8 +167,10 @@ const Main = () => {
                     выпускников наших программ
                   </p>
                 </div>
-                <div className="Nambers-card">
-                  <img src={icon4} alt="icon4"/>
+                <div className="Namber-card">
+                  <div className="For-icon">
+                    <img src={icon4} alt="icon4"/>
+                  </div>
                   <p className="Nambers-card-main-text">
                     640+
                   </p>
@@ -232,4 +236,14 @@ export default Main;
 //   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETarL7liZ6HuIl98ssT5lp-j9xELReoyFma1hmwNfrI7kJw/viewform?usp=sf_link">
 //     <button className="Main-button" type="button" name="button">Регистрация</button>
 //   </a>
+// </div>
+
+//
+// <div className="Where-btn-box">
+// <a href="">
+//   <button className="Where-btn-1" type="button" name="button">Проекты</button>
+// </a>
+// <a href="">
+//   <button className="Where-btn-2" type="button" name="button">Расписание</button>
+// </a>
 // </div>

@@ -156,6 +156,7 @@ header{
 
 .Bold{
   font-weight: 700;
+  font-family: Montserrat;
 }
 
 .Main-text{
@@ -372,7 +373,7 @@ header{
   align-items: center;
 }
 
-.Nambers-card{
+.Namber-card{
   width: 200px;
   height: 210px;
   display: flex;
@@ -726,6 +727,26 @@ footer p{
   margin-left: 230px;
 }
 
+.mob{
+  display: none;
+}
+
+
+.For-icon{
+  min-width: 70px;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Nambers-card img{
+  /* background-position: top; */
+  /* background-size:   cover;
+  width: 60px;
+  height: 60px; */
+}
+
 /* ____________________Media___________________________________ */
 
 
@@ -798,6 +819,196 @@ footer p{
       width: auto;
       height: 250px;
  }
+}
+
+@media screen and (max-width: 400px) {
+  .mob{
+    display: block;
+  }
+
+  .pc{
+    display: none;
+  }
+
+  .gamb{
+    position: fixed;
+    left: 20px;
+  }
+
+  .Backgraung-header{
+    width: 100%;
+    height: 421px;
+    background-image: url(img/back-mob.png);
+    margin-top: 90px;
+  }
+
+  .Main-text{
+    color: black;
+    margin: 500px 15px 15px 15px;
+  }
+
+  h1, .Main-text-1, .Main-text-2 {
+    margin: 0;
+    color: black;
+  }
+
+  .forText{
+    height: 400px;
+  }
+
+  .Where-block-1{
+    padding-left: 15px;
+  }
+
+  .Where-block-2 {
+    width: auto;
+  }
+
+  .Backgraung-nambers {
+    width: 100%;
+    height: 800px !important;
+    background-image: url(img/numb-mob.png);
+  }
+
+  .Nambers-cards {
+    flex-direction: column;
+  }
+
+  h3{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 40px;
+  }
+
+  .Namber-card img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .Nambers-card-text{
+    width: 230px;
+  }
+
+  .For-icon{
+    position: relative;
+    top: 130px;
+    right: 120px;
+  }
+
+  .Nambers-card-main-text{
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55.71px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .Nambers-card-text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 140px;
+  }
+
+  .Nambers-card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+  .Namber-card{
+    height: 160px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+.Mission-text-1{
+  color: #1d1d1d;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.Mission-text-2{
+  color: #1d1d1d;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  text-align: center;
+}
+
+.Mission {
+    width: 100%;
+    height: 250px;
+  }
+
+  .Сustomers-main-text{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .Сustomers-block-1{
+    height: 322px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .Сustomers-text{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer {
+    height: 214px;
+  }
+
+  .Footer-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+
+  .Footer-box p{
+    width: 220px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
 }
 
  /* @media screen and (max-width: 1500px) {
