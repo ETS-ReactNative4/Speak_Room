@@ -132,6 +132,10 @@ header{
   cursor: pointer;
 }
 
+.Top-menu Link:hover, .Top-menu div:hover, .Top-menu a:hover{
+    color: #77b2fe;
+}
+
 .Top-submenu{
   width: 216px;
   height: 96px;
@@ -146,6 +150,10 @@ header{
   opacity: 1 !important;
   padding-left: 20px;
   border-top:2px solid white;
+}
+
+.Top-submenu Link:hover{
+  color: #77b2fe;
 }
 
 .Top-menu-mob{
@@ -176,6 +184,10 @@ header{
   cursor: pointer;
 }
 
+.Top-menu-mob a:hover{
+  color: #77b2fe;
+}
+
 .Top-submenu Link{
   color: #ffffff;
   font-family: "Open Sans";
@@ -183,6 +195,11 @@ header{
   font-weight: 400;
   line-height: 20px;
 }
+
+.Top-menu-mob Link:hover{
+  color: #77b2fe;
+}
+
 
 .Bold{
   font-weight: 700;
@@ -192,7 +209,9 @@ header{
 .Main-text{
   width: 450px;
   margin-top: 230px;
-  margin-left: 50%;
+  /* margin-left: 50%; */
+  position: relative;
+  left: 950px;
 }
 
 .Main-text-1{
@@ -234,17 +253,21 @@ header{
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.Where-block-1, .Where-block-2{
-  width: 600px;;
+.Where-block-1{
+  width: 530px;
   height: 860px;
+  margin-left: 220px;
   /* border: 1px solid black; */
+  padding-right: 80px;
 }
 
 .Where-block-2{
+  width: 600px;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -260,7 +283,6 @@ header{
   line-height: 24px;
   text-transform: uppercase;
   margin-top: 50px;
-  margin-left: 20px;
 }
 
 .Where-text-1{
@@ -271,10 +293,12 @@ header{
   line-height: 22px;
   margin-top: 20px;
   margin-left: 20px;
+  text-indent: -10px;
 }
 
-.Where-text-1 img{
-  margin-right: 20px;
+.Where-text-1 span{
+  position: relative;
+  right: 10px;
 }
 
 .Where-btn-box{
@@ -628,7 +652,7 @@ footer p{
   display: flex;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 
 .Rogov-main-text{
@@ -683,6 +707,12 @@ footer p{
   line-height: 24px;
   margin-left: 180px;
   margin-right: 150px;
+  text-indent: -10px;
+}
+
+.Rogov-block-text span{
+  position: relative;
+  right: 10px;
 }
 
 .Rogov-block-main-text{
@@ -690,10 +720,14 @@ footer p{
   font-family: "Open Sans";
   font-size: 42px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 50px;
   text-transform: uppercase;
   margin-bottom: 55px;
   margin-left: 180px;
+}
+
+.norm-text{
+    text-indent: 0;
 }
 
 .Rogov-box-text{
@@ -751,7 +785,7 @@ footer p{
   display: flex;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 
 .Kater-main-text{
@@ -779,6 +813,10 @@ footer p{
   height: 60px; */
 }
 
+.displayNone{
+  display: none;
+}
+
 /* ____________________Media___________________________________ */
 
 
@@ -789,13 +827,11 @@ footer p{
 
  @media screen and (max-width: 1500px) {
    .Main-text {
-     margin-left: 50%;
+     left: 900px;
    }
 
-  .Where-block-1, .Where-block-2 {
-    width: auto;
-    height: auto;
-    margin: 0 auto 60px auto;
+  .Where-block-1{
+    margin: 0 0 0 120px;
   }
 
   .Where-block-2 {
@@ -808,11 +844,24 @@ footer p{
     }
   }
 
+ @media screen and (max-width: 1350px) {
+   .Where-block-1{
+     width: 430px;
+     margin: 0 0 0 30px;
+     padding-right: 30px;
+   }
+ }
+
+
 @media screen and (max-width: 1100px) {
 
+  .Main-text {
+    left: 550px;
+  }
+
   .Where {
-   flex-direction: column;
-   height: auto;
+     flex-direction: column;
+     height: auto;
   }
   .Rogov-block {
     height: auto;
@@ -872,11 +921,12 @@ footer p{
     width: 100%;
     height: 421px;
     background-image: url(img/back-mob.png);
-    margin-top: 90px;
+    /* margin-top: 90px; */
   }
 
   .Main-text{
     color: black;
+    position: static;
     margin: 500px 15px 15px 15px;
   }
 
@@ -890,6 +940,8 @@ footer p{
   }
 
   .Where-block-1{
+    width: 100%;
+    height: auto;
     padding-left: 15px;
   }
 
@@ -1110,10 +1162,6 @@ footer p{
   width: 100%;
 }
 
-.Rogov-block-text{
-  margin: 0;
-}
-
 .Rogov-block-1 {
   height: 150px;
   min-width: 100%;
@@ -1127,6 +1175,7 @@ footer p{
 .Rogov-block-text{
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0;
 }
 
 .Rogov-block-mob{

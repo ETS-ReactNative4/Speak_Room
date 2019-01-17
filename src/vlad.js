@@ -41,7 +41,7 @@ const Vladimir = () => (
 
       <div className="Rogov-block">
         <div className="Rogov-block-1">
-          <p className="Rogov-block-text">
+          <p className="Rogov-block-text norm-text">
             Владимир Рогов — сооснователь и ведущий тренер проекта SpeakRoom. На его счету более 500 проведенных тренингов, курсов и мастер-классов для самых разных аудиторий — от 10 до 9000 человек.
           </p>
         </div>

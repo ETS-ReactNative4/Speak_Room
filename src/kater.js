@@ -36,9 +36,9 @@ const Katerina = () => (
 
       <div className="Rogov-block">
         <div className="Rogov-block-1">
-          <p className="Rogov-block-text">
-          Мартыненко Катерина - основатель, идейный вдохновитель и куратор проекта SpeakRoom.
-          Входит в ТОП 100 влиятельных женщин Украины 2018
+          <p className="Rogov-block-text norm-text">
+            Мартыненко Катерина - основатель, идейный вдохновитель и куратор проекта SpeakRoom.
+            Входит в ТОП 100 влиятельных женщин Украины 2018
           </p>
         </div>
         <div className="Rogov-block-2">

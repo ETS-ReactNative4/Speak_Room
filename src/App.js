@@ -58,9 +58,9 @@ const Main = () => {
                 Мы разработали программы, которые помогают:
               </p>
               <p className="Where-text-1">
-                <span>
-                  <img src={ellipse} alt="ellipse"/>
-                </span>
+              <span>
+                <img src={ellipse} alt="ellipse"/>
+              </span>
                 Решать конфликтные ситуации и эффективно вести трудные диалоги.
               </p>
               <p className="Where-text-1">

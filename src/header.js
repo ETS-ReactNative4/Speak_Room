@@ -6,7 +6,7 @@ import logoMob from './img/logo-mob.png';
 import gambMob from './img/gamb-mob.png';
 
 
-const Header = () => {
+const PreHeader = () => {
 
 class SubMenu extends Component {
   constructor() {
@@ -147,6 +147,45 @@ class SubMenuMob extends Component {
       </div>
     </header>
   );
+}
+
+
+let lastScrollY = 0;
+let ticking = false;
+
+class Header extends React.Component {
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  nav = React.createRef();
+
+  handleScroll = () => {
+    lastScrollY = window.scrollY;
+    console.log(lastScrollY);
+
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        this.nav.current.style.display = `block`;
+        ticking = false;
+      });
+      ticking = true;
+    }
+  };
+
+  render() {
+    return (
+      <div>
+        <nav ref={this.nav} className="displayNone">
+          <PreHeader />
+        </nav>
+      </div>
+    );
+  }
 }
 
 export default Header;
