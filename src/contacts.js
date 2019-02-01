@@ -44,6 +44,11 @@ const Contacts = () => (
           <p className="Backgraung-сontacts-text">
             Форма обратной связи
           </p>
+          <a href="https://goo.gl/forms/pfqKin4BT7wSRqKl2">
+            <div className="btn-prod btn-cont">
+              отправить заявку
+            </div>
+          </a>
         </div>
         <div className="Backgraung-сontacts-2">
             <img src={contacts_foto} alt="mail"/>

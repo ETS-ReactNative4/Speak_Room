@@ -143,6 +143,8 @@ class SubMenuMob extends Component {
       <div className="Top-menu pc">
         <SubMenu />
         <p>|</p>
+        <Link to="/projects/">Проекты</Link>
+        <p>|</p>
         <Link to="/contacts/">Контакты</Link>
       </div>
     </header>
