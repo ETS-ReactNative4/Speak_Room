@@ -953,8 +953,8 @@ footer p{
 }
 
 .Corp-smoll-main-text-2{
-  width: 364px;
-  height: 80px;
+  /* width: 364px;
+  height: 80px; */
   color: #000000;
   font-family: "Open Sans";
   font-size: 16px;
@@ -965,6 +965,8 @@ footer p{
 
 .Corp-smoll-main-text-2 span{
   font-weight: 600;
+  font-family: "Open Sans";
+  font-size: 16px;
 }
 
 .Corp-smoll-box ul{
